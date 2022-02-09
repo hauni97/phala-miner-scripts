@@ -1,5 +1,8 @@
 #!/bin/bash
 
+installdir=/opt/phala
+scriptdir=$installdir/scripts
+
 set -a 
 
 # This deletes and replaces the status.sh file with an updated status.sh script
