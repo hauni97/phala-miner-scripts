@@ -10,7 +10,7 @@ set -a
 function update_phala_status()
 {
   cd ..
-  rm -rf /opt/phala/scripts/status.sh
+  sudo rm -rf /opt/phala/scripts/status.sh
   wget https://raw.githubusercontent.com/Phala-Network/solo-mining-scripts/improvement-test/scripts/en/status.sh
   mv status.sh /opt/phala/scripts/
   exit 1
